@@ -6,7 +6,7 @@ MSVC / Visual Studio Community 2017 / Windows 10
 
 All output is located in the Output folder.
 
-![morph](.\Output\kdrucia1_HTML\kdrucia1.art.101.gif)
+![kdrucia1.art.101](.\Output\kdrucia1_HTML\kdrucia1.art.101.gif)
 
 ### addRandomNoise
 
