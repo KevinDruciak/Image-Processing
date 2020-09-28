@@ -6,6 +6,8 @@ MSVC / Visual Studio Community 2017 / Windows 10
 
 All output is located in the Output folder.
 
+![](.\Output\kdrucia1_HTML\kdrucia1.art.101.gif)
+
 ### addRandomNoise
 
 I simply generated a uniform random distribution in the range (-noise, noise). From then I sampled the random distribution for each channel of every pixel in the image.
@@ -22,13 +24,13 @@ In order to make the image gray, I set the channels of every pixel to the averag
 
 Here I first calculate the average luminance of the entire image. I use that average to scale the image accordingly with the contrast factor.
 
-![](.\Assignment1\kdrucia1_HTML\contrast.gif)
+![](.\Output\kdrucia1_HTML\contrast.gif)
 
 ### saturate
 
 I calculate the saturation of the image much in the same way that I calculate contrast. Instead of finding the average luminance for the entire image, I simply find the luminance for the pixel being operated on.
 
-![](.\Assignment1\kdrucia1_HTML\saturate.gif)
+![](.\Output\kdrucia1_HTML\saturate.gif)
 
 ### crop
 
@@ -38,19 +40,19 @@ I simply iterate through the pixels in the range of the given indices and output
 
 Quantizing the image according to the number of bits allotted we apply the following formula:
 
-![](.\Assignment1\kdrucia1_HTML\quantize.gif)
+![](.\Output\kdrucia1_HTML\quantize.gif)
 
 ### randomDither
 
 I generated a uniform random distribution in the range (-1, 1). I then add a bit of noise to each of the pixels according to the formula:
 
-![](.\Assignment1\kdrucia1_HTML\rDither.gif)
+![](.\Output\kdrucia1_HTML\rDither.gif)
 
 ### orderedDither2x2
 
 Ordered dither with a 2x2 matrix essentially decreases the resolution of the image 4 times. This method takes advantage of the fact that the human eye perceives groups of pixels as a single color. For example, given black and white, ordering the pixels in a a specific manner can yield different shades of gray. The dithering matrix is:
 
-![](.\Assignment1\kdrucia1_HTML\oDither.gif)
+![](.\Output\kdrucia1_HTML\oDither.gif)
 
 I find the index into the matrix from the remainder of indices x and y from the original image. From there I find the difference of the bits-adjusted value of the pixel from its floor (c). If the index into the matrix divided by n^2 + 1 is greater than the error, the value at that pixel is the ceiling of c; else, floor of c.
 
@@ -58,7 +60,7 @@ I find the index into the matrix from the remainder of indices x and y from the 
 
 Floyd-Steinberg dithering distributes the error of the quantized pixel to the next pixels in the 3x3 matrix surrounding the pixel according to this image:
 
-![](.\Assignment1\kdrucia1_HTML\fsDither.png)
+![](.\Output\kdrucia1_HTML\fsDither.png)
 
 The error calculated in Floyd-Steinberg dithering is the difference between the value of the original pixel and quantized pixel.
 
@@ -66,7 +68,7 @@ The error calculated in Floyd-Steinberg dithering is the difference between the 
 
 In blur3x3, we apply a gaussian blur to the entire image according to the normalized mask:
 
-![](.\Assignment1\kdrucia1_HTML\blur3x3.gif)
+![](.\Output\kdrucia1_HTML\blur3x3.gif)
 
 Every pixel has their values average by the values of the surrounding pixels weighted according to the mask.
 
@@ -74,7 +76,7 @@ Every pixel has their values average by the values of the surrounding pixels wei
 
 In edgeDetect3x3, we apply another mask that calculates error between pixels.
 
-![](.\Assignment1\kdrucia1_HTML\edges3x3.gif)
+![](.\Output\kdrucia1_HTML\edges3x3.gif)
 
 If the values of the neighboring pixels are similar to the value of the pixel at hand, the result of applying this matrix will be close to zero. The further from zero, the more that the pixel differs from its neighbors and is thus an edge. In my implementation, I determined an edge to be a pixel whose error surpasses an arbitrary threshold. In this case, I chose 20\. This error is calculated for each color channel. Therefore, for pixels differing from their neighbors in each color channel, the output pixel is white. If only the red channel differs, the output pixel is red, etc. (Method 1)
 
@@ -82,11 +84,11 @@ It is worth noting that there are multiple method of displaying the edge of an i
 
 ##### Method 1:
 
-![Method 1](.\Assignment1\kdrucia1_HTML\EdgeDetection.bmp)
+![Method 1](.\Output\kdrucia1_HTML\EdgeDetection.bmp)
 
 ##### Method 2:
 
-![Method 2](.\Assignment1\kdrucia1_HTML\EdgeDetection2.bmp)
+![Method 2](.\Output\kdrucia1_HTML\EdgeDetection2.bmp)
 
 ### nearestSample
 
@@ -100,7 +102,7 @@ This method finds the four existing pixel values surrounding the given point and
 
 This method calculates the weighted average of the given pixel according to a gaussian distribution. The pixels sampled for the gaussian distribution are those that fall within some radius of the given pixel. The weights of the pixels considered with the function:
 
-![Method 2](.\Assignment1\kdrucia1_HTML\gaussian.gif)
+![Method 2](.\Output\kdrucia1_HTML\gaussian.gif)
 
 where d is the distance between a pixel is the radius and the center pixel. These weights are normalized and the color of the pixel is obtained.
 
@@ -122,9 +124,9 @@ As a note for all rotation methods, I accidently coded a clockwise rotation. Sin
 
 In order to display the entirety of the original image after a rotation, the original image size is changed. This new size is calculated at the start to be:
 
-![](.\Assignment1\kdrucia1_HTML\newHeight.gif)
+![](.\Output\kdrucia1_HTML\newHeight.gif)
 
-![](.\Assignment1\kdrucia1_HTML\newWidth.gif)
+![](.\Output\kdrucia1_HTML\newWidth.gif)
 
 Next, I apply the rotation to the index of the pixel and obtain the coordinates (u, v). The source image is then sampled using nearestSampling to obtain the final rotated image. Any pixels that are out of bounds in the source image are set to 0\. This way, the final image appears in its entirety as if its overlaid on a black background.
 
@@ -144,7 +146,7 @@ This method simply reads the red channel of an input image and writes them to an
 
 Composite takes in the overlay image with its alpha channels populated by setAlpha and convolves it with some source image. I first make sure that the two images are the same size. I then merge the images by the following formula:
 
-![](.\Assignment1\kdrucia1_HTML\composite.gif)
+![](.\Output\kdrucia1_HTML\composite.gif)
 
 If a pixel does not have an alpha value, I set the alpha value at that pixel to 1.0 (255).
 
@@ -176,7 +178,7 @@ This is simply the distance formula applied to the end points of a line segment.
 
 I had a rather hard time implementing this function. I could not figure out how to calculate the distance of the point to the line without recalculating u and v as specified in the research paper. Although I could have just included implementation of the distance method in the body of the warp method, I opted to recalculate u and v anyway in the distance method.
 
-![](.\Assignment1\kdrucia1_HTML\distance.png)
+![](.\Output\kdrucia1_HTML\distance.png)
 
 ### perpendicular
 
@@ -190,7 +192,7 @@ I did not implement this method. I assume this is the bulk of the warping method
 
 #### movie/art contest:
 
-![](.\Assignment1\kdrucia1_HTML\kdrucia1.art.101.gif)
+![](.\Output\kdrucia1_HTML\kdrucia1.art.101.gif)
 
 **In order to generate the .gif movie I had to change code in the main method** that calls the morph method. **The line is question is line 132 of main1.cpp**. I wrote a script that creates all of the frames for the movie, but I could not figure out how to pass a floating point number to the method from the script (bash doesn't natively support it). As a workaround, I just divide the whole numbered threshold by the number of frames in the output gif minus 1 to get the threshold for that image.
 
