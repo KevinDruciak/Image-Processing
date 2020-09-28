@@ -1,0 +1,105 @@
+﻿  image.todo.cpp
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(373): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(374): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(404): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(405): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(406): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(407): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(411): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(412): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(413): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(415): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(416): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(417): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(419): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(420): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(421): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(423): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(424): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(425): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(433): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(451): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(452): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(453): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(454): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(498): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(499): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(551): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(552): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(553): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(554): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(564): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(565): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(566): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(567): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(577): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(578): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(579): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(580): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(590): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(591): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(592): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(593): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(598): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(602): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(606): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(610): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(638): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(639): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(640): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(641): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(739): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(740): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(741): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(742): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(788): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(789): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(790): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(791): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(795): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(796): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(797): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(799): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(800): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(801): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(803): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(804): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(805): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(807): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(808): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(809): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(821): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(924): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(925): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(926): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(927): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(956): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(957): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(958): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(959): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(969): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(970): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(971): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(972): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(982): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(983): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(984): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(985): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(995): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(996): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(997): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(998): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1003): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1007): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1011): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1015): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1032): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1033): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1034): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(1035): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bakad\desktop\kdrucia1.assignment1\util\geometry.inl(56): warning C4838: conversion from 'int' to 'const double' requires a narrowing conversion
+  c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(757): note: see reference to function template instantiation 'Util::Point<2>::Point<int,int>(int,int)' being compiled
+  c:\users\bakad\desktop\kdrucia1.assignment1\image\image.todo.cpp(757): note: see reference to function template instantiation 'Util::Point<2>::Point<int,int>(int,int)' being compiled
+  lineSegments.todo.cpp
+  Generating Code...
+  Image.vcxproj -> C:\Users\bakad\Desktop\kdrucia1.assignment1\.\Image.lib
